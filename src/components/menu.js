@@ -88,9 +88,9 @@ const content = (() => {
 
     //add content
     container.classList.add('content')
-    starters.classList.add('starters');
-    mains.classList.add('mains');
-    desserts.classList.add('desserts');
+    starters.classList.add('menuCard');
+    mains.classList.add('menuCard');
+    desserts.classList.add('menuCard');
 
     startersH.textContent = 'Starters';
     mainsH.textContent = 'Main Entrees';
