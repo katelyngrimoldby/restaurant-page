@@ -11,8 +11,11 @@ const heading = (() => {
     //Adding text content
     logo.classList.add('logo');
     logo.textContent = 'Restaurant';
+    home.setAttribute('id', 'homeBtn');
     home.textContent = 'Home';
+    menu.setAttribute('id', 'menuBtn');
     menu.textContent = 'Menu';
+    contact.setAttribute('id', 'contactBtn')
     contact.textContent = 'Contact';
 
     //appending children
