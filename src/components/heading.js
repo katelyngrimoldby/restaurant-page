@@ -12,6 +12,7 @@ const heading = (() => {
     logo.classList.add('logo');
     logo.textContent = 'Restaurant';
     home.setAttribute('id', 'homeBtn');
+    home.classList.add('active');
     home.textContent = 'Home';
     menu.setAttribute('id', 'menuBtn');
     menu.textContent = 'Menu';
