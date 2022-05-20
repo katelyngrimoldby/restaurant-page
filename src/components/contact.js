@@ -1,14 +1,16 @@
 const hero = (() => {
     //create elements
     const container = document.createElement('section');
+    const image = document.createElement('img')
     const title = document.createElement('h1');
 
     //add content
     container.classList.add('hero');
+    image.setAttribute('src', './../../dist/hero_img.jpg')
     title.textContent = 'Contact Us';
 
     //append to container
-    container.appendChild(title);
+    container.append(title, image);
 
     return container;
 })();
