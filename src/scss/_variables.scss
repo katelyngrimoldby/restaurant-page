@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+$font: 'Roboto', sans-serif;
+$lightGrey: #d4d4d8;
+$midGrey: #3f3f46;
+$black: #18181b;
+$white: #fafafa;
+$midDarkAmber: #b45309;
+
+$font-weights: (
+    "light": 300,
+    "regular": 400,
+    "bold": 700,
+);
+
+@function weight($key) {
+    @return map-get($font-weights, $key)
+};
