@@ -111,4 +111,19 @@ header {
             color: v.$midDarkAmber;
         }
     }
+
+    //menu-specific styles
+    .menuCard {
+        background-color: v.$white;
+        padding: 15px 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .menuItem {
+        padding: 10px 0;
+        span {
+            font-weight: v.weight(normal);
+        }
+    }
 }
