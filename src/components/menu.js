@@ -6,7 +6,7 @@ const hero = (() => {
 
     //add content
     container.classList.add('hero');
-    image.setAttribute('src', './../../dist/hero_img.jpg')
+    image.setAttribute('src', './hero_img.jpg')
     title.textContent = 'Our Menu';
 
     //append to container
