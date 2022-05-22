@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+header {
+  background-color: #3f3f46;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fafafa;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  display: inline-block;
+  padding: 20px 15px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+header li:hover {
+  background-color: #18181b;
+}
+header li.active {
+  background-color: #b45309;
+}
+header .logo {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: #18181b;
+  top: 0px;
+  z-index: -1;
+  opacity: 0.75;
+}
+.hero img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  z-index: -2;
+  position: absolute;
+  top: 0px;
+}
+.hero h1 {
+  padding-bottom: 100px;
+  color: #fafafa;
+  text-align: center;
+  font-size: 48px;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #b45309;
+  height: 5px;
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: 10px;
+}
+
+.content {
+  background-color: #d4d4d8;
+  padding-block: 30px;
+  color: #18181b;
+}
+.content h2 {
+  color: #b45309;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.content .card {
+  background-color: #fafafa;
+  padding: 15px 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content p {
+  line-height: 1.5;
+  text-align: start;
+}
+.content a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3f3f46;
+  font-weight: 400;
+}
+.content a:hover {
+  color: #b45309;
+}
+.content .menuCard {
+  background-color: #fafafa;
+  padding: 15px 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content .menuItem {
+  padding: 10px 0;
+}
+.content .menuItem span {
+  font-weight: 400;
+}
+
+footer {
+  background-color: #18181b;
+  padding: 15px 20px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
